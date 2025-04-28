@@ -1,0 +1,645 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(176, 176, 176);
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #131A22;
+    color: white;
+
+    align-items: center;
+     /* position: fixed;
+     top: 0;
+    width: 100%;
+    z-index: 1000;   */
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 6px;
+    margin-top: 8px;
+}
+
+.logo h6 {
+    font-size: 20px;
+}
+
+.location {
+    padding-top: 4px;
+    margin-left: 1px;
+    margin-right: -22px
+}
+
+.location .update {
+    font-weight: 900;
+
+}
+
+.in {
+    font-size: 30px;
+    margin-left: -50px;
+    margin-right: 5px;
+    margin-top: 2px;
+    color: white;
+}
+
+header #locationicon {
+    margin: 10px -44px 0px -27px;
+}
+
+.value {
+    height: 34px;
+    margin-left: 17px;
+    margin-right: -144px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+.input .search {
+    height: 34px;
+    width: 493px;
+    margin-left: 104px;
+    margin-right: -164px;
+    border-radius: 5px;
+}
+
+.searchicon {
+    margin-left: 94px;
+    margin-right: -96px;
+    background-color: rgb(227, 180, 9);
+}
+
+.flag {
+    margin-left: 110px;
+    margin-top: 4px;
+}
+
+select {
+    width: 47px;
+    margin-right: -41px;
+    margin-left: -51px;
+}
+
+.acount {
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.return {
+    font-size: 19px;
+}
+
+.cart img {
+    height: 60px;
+}
+
+.searchicon button {
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    background-color: rgba(237, 203, 94, 0.938);
+}
+
+.searchicon button:hover {
+    background-color: rgba(255, 196, 0, 0.938);
+}
+
+.menuicon .iconmenu {
+    width: 27px;
+    height: 5px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+.menuheader {
+    display: flex;
+    justify-content: space-between;
+    background-color: #37475A;
+    color: white;
+    height: 40px;
+    align-items: center;
+
+}
+
+.menuheader h6 {
+    font-size: 15px;
+ padding: 10px;
+
+}
+
+.menuheader h6:hover {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.menuheader .div{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+   
+}
+.menuheader .div h3{
+    filter: blur(0.5px);
+}
+.menuheader .div:hover{
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+ /* .backimg img{
+    height: 90vh;
+    width: 100%;
+ }  */
+.backimg{
+    padding-top: 36px;
+     background-image: url(backgrn.jpg); 
+     background-size: cover;
+     background-repeat: no-repeat;
+     /* background-size: 3000px 1200px; */
+    display: flex;
+    justify-content: space-around;
+    /* animation: 30s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite; */
+    border-bottom: 1px solid black;
+    animation-name: animation;
+    animation-delay: 2s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes animation {
+   0% {
+       background-image: url(backgrn.jpg);
+   }
+
+   35% {
+       background-image: url(backimg2.jpeg);
+   }
+
+   75% {
+       background-image: url(ani1.jpeg);
+   }
+
+}
+.backimg #tech{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    
+}
+ .backimg #home{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+ .backimg #electronic{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+ .backimg #automotive{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+ }
+ .backimg .boximg{
+    margin-top: 260px;
+ }
+ .backimg #tech .cont  h6{
+    display: flex;
+   font-size: 25px;
+   justify-content: center;
+   margin-top: 10px;
+  
+ }
+ .backimg #tech .cont img{
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+ }
+ .backimg #tech .cont .b1p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+ .backimg #tech .cont .p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ /* new box */
+ .backimg #home .cont  h6{
+    display: flex;
+   font-size: 25px;
+   justify-content: center;
+   margin-top: 10px; 
+ }
+ .backimg #home .cont img{
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+ }
+ .backimg #home .cont .b1p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+ .backimg #home .cont .p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+ /*third cont */
+ .backimg #electronic .cont  h6{
+    display: flex;
+   font-size: 25px;
+   justify-content: center;
+   margin-top: 10px; 
+ }
+ .backimg #electronic .cont img{
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+ }
+ .backimg #electronic .cont .b1p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+ .backimg #electronic .cont .p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+ /*fourth cont*/
+ .backimg #automotive .cont  h6{
+    display: flex;
+   font-size: 25px;
+   justify-content: center;
+   margin-top: 10px; 
+ }
+ .backimg #automotive .cont img{
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+ }
+ .backimg #automotive .cont .b1p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+ .backimg #automotive .cont .p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ .maindiv{
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+   
+ }
+ .maindiv .headdiv{
+    display: flex;
+    
+ }
+ .maindiv .headdiv h4{
+    font-size: 30px;
+ }
+ .maindiv .headdiv h5 a{
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: green;
+   
+ }
+ .maindiv .headdiv h5{
+    padding-top: 3px;
+ }
+ .maindiv .headdiv h5 a:hover{
+    text-decoration: underline;
+ }
+ .maindiv .imgdiv1 .homeproduct{
+    height: 200px;
+    width: 170px;
+    padding: 10px;
+    padding-top: 20px;
+ }
+ .maindiv .imgdiv1 .homeproduct1{
+    height: 200px;
+    width: 205px;
+    padding: 10px;
+    padding-top: 20px;
+ }
+ 
+ /* start */
+ .forbox{
+    padding-top: 36px;
+     background-image: url(backimg2.jpeg); 
+     background-size: cover;
+     background-repeat: no-repeat;
+     /* background-size: 3000px 1200px; */
+    display: flex;
+    justify-content: space-around;
+    /* animation: 30s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite; */
+   
+}
+.forbox #tech{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    
+}
+ .forbox #home{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+ .forbox #electronic{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+ .forbox #automotive{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+ }
+ .forbox .boximg{
+    margin-top: 260px;
+ }
+ .forbox #tech .cont  h6{
+    display: flex;
+   font-size: 25px;
+   justify-content: center;
+   margin-top: 10px;
+  
+ }
+ .forbox #tech .cont img{
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+ }
+ .forbox #tech .cont .b1p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+ .forbox #tech .cont .p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ /* new box */
+ .forbox #home .cont  h6{
+    display: flex;
+   font-size: 25px;
+   justify-content: center;
+   margin-top: 10px; 
+ }
+ .forbox #home .cont img{
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+ }
+ .forbox #home .cont .b1p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+ .forbox #home .cont .p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+ /*third cont */
+ .forbox #electronic .cont  h6{
+    display: flex;
+   font-size: 25px;
+   justify-content: center;
+   margin-top: 10px; 
+ }
+ .forbox #electronic .cont img{
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+ }
+ .forbox #electronic .cont .b1p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+ .forbox #electronic .cont .p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+ /*fourth cont*/
+ .forbox #automotive .cont  h6{
+    display: flex;
+   font-size: 25px;
+   justify-content: center;
+   margin-top: 10px; 
+ }
+ .forbox #automotive .cont img{
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+ }
+ .forbox #automotive .cont .b1p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+ .forbox #automotive .cont .p1p1p1{
+    display: flex;
+    justify-content: space-around;
+ }
+  .homeproduct1:hover{
+        cursor: pointer;
+ }
+ .homeproduct:hover{
+   cursor: pointer;
+}
+
+.footer{
+   padding: 70px;
+   margin-top: 30px;
+   height: 50px;
+   width: 100vw;
+   /* border: 1px solid black; */
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-left: -55px;
+}
+.footer h5{
+   /* padding-right: 100px; */
+   font-size: 18px;
+}
+.footer .signbtn{
+      height: 60px;
+      width: 200px;
+      padding: 5px;
+      margin: 5px;
+      background-color: #fbb917;
+      border-radius: 3px;
+      font-weight: 900;
+      
+}
+.footer h6{
+    padding: 5px;
+    font-size: 13px;
+    /* padding-right: 100px; */
+}
+.footer h6 a{
+    text-decoration: none;
+    color: green;
+    padding-left: 5px;
+}
+.backtop{
+   height: 25px;
+   width: 100vw;
+   margin-top: 30px;
+   border: 1px solid black;
+   padding: 10px;
+   background-color: #37475A;
+   color: white;
+}
+.backtop h6{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 13px;
+   font-weight: 900;
+}
+.mainfooter{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: white;
+   background-color: 	#232f3e;
+}
+.mainfooter .footer1{
+        margin: 20px;
+        margin-top: -64px;
+}
+.mainfooter .footer1 h3{
+   padding: 10px;
+}
+.mainfooter .footer1 h6{
+   padding: 7px;
+   font-size: 15px;
+   font-weight: 100;
+}
+.mainfooter .footer1 h6 a{
+   text-decoration: none;
+   color: white;
+}
+.mainfooter .footer1 h6 a:hover{
+   cursor: pointer;
+}
+
+.mainfooter .footer2{
+     margin: 20px;
+     margin-top: -95px;
+}
+.mainfooter .footer2 h3{
+   padding: 10px;
+}
+.mainfooter .footer2 h6{
+   padding: 7px;
+   font-size: 15px;
+   font-weight: 100;
+}
+.mainfooter .footer2 h6 a{
+   text-decoration: none;
+   color: white;
+}
+.mainfooter .footer2 h6 a:hover{
+   cursor: pointer;
+}
+.mainfooter .footer3{
+   margin: 20px;
+   margin-top: 58px;
+
+}
+.mainfooter .footer3 h3{
+   padding: 10px;
+}
+.mainfooter .footer3 h6{
+   padding: 7px;
+   font-size: 15px;
+   font-weight: 100;
+}
+.mainfooter .footer3 h6 a{
+   text-decoration: none;
+   color: white;
+}
+.mainfooter .footer3 h6 a:hover{
+   cursor: pointer;
+}
+
+.mainfooter .footer4{
+   margin: 20px;
+
+}
+.mainfooter .footer4 h3{
+   padding: 10px;
+}
+.mainfooter .footer4 h6{
+   padding: 7px;
+   font-size: 15px;
+   font-weight: 100;
+}
+.mainfooter .footer4 h6 a{
+   text-decoration: none;
+   color: white;
+}
+.mainfooter .footer4 h6 a:hover{
+   cursor: pointer;
+}
+.footer button:hover{
+   background-color: black;
+   color: white;
+
+}
+
+.mainfooter h6 a:hover{
+   text-decoration: underline;
+}
+footer .backtop h6 a{
+   color: white;
+   font-size: 18px;
+   text-decoration: none;
+}
+.backimg .boximg img:hover{
+   cursor: pointer;
+}

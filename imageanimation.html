@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            height: 90vh;
+            width: 100vw;
+            background-image: url(backgrn.jpg);
+            animation-name: animation;
+            animation-duration: 12s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+
+
+        }
+
+        @keyframes animation {
+            0% {
+                background-image: url(backgrn.jpg);
+            }
+
+            35% {
+                background-image: url(backimg2.jpeg);
+            }
+
+            75% {
+                background-image: url(ani1.jpeg);
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+
+    </div>
+</body>
+
+</html>
