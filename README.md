@@ -1,4 +1,5 @@
 Amazon Clone - Frontend (HTML & CSS)
+LIVE HERE : https://yogeshnaharwara.github.io/Amazon-clone-forntend/    IF ANY PROBLEM OPEN IN IGONOTIO MODE
 Overview
 This is a simple Amazon Clone built using only HTML and CSS. The project replicates the main user interface of Amazon's website with an emphasis on the layout and styling, without any backend or dynamic functionality. The purpose of this project is to practice HTML and CSS skills and understand how e-commerce websites structure their content.
 
